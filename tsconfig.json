@@ -1,0 +1,48 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Docusaurus v2",
+    "docs": "https://v2.docusaurus.io/docs/typescript-support",
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": [
+            "DOM"
+        ],
+        "noEmit": true,
+        "noImplicitAny": false,
+        "checkJs": true,
+        "sourceMap": true,
+        "incremental": true,
+        "removeComments": true,
+        "newLine": "lf",
+        "outDir": "dist",
+        "baseUrl": "./",
+        "paths": {
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@/*": [
+                "src/*"
+            ]
+        },
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/@docusaurus/module-type-aliases",
+            "./src/typings"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "ts-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "cf": "echo 'cf. https://classic.yarnpkg.com/en/docs/cli/'",
+    "package.json": "cat ./package.json",
+    "package.json:cf": "echo 'cf. https://docs.npmjs.com/cli/v6/configuring-npm/package-json'",
+    "webpack:cf": "webpack --help=verbose && echo 'cf. https://webpack.js.org/api/cli/'",
+    "dev": "cross-env TS_NODE_PROJECT=\"./.config/tsconfig.webpack.json\" webpack serve --mode development",
+    "type:check": "tsc --project tsconfig.json --pretty --noEmit",
+    "test": "jest --config ./jest.config.ts",
+    "test:cf": "yarn test --help && echo 'cf. https://jestjs.io/docs/en/cli'",
+    "test:watch": "yarn test --watch",
+    "prettier": "prettier './{src,test}/**/*.{ts,tsx,css,md,mdx,json}' --config './.config/.prettierrc.js' --ignore-path './.config/.prettierignore'",
+    "prettier:cf": "prettier --help && echo 'cf. https://prettier.io/docs/en/cli.html'",
+    "format": "yarn prettier --write",
+    "format:check": "yarn prettier --check",
+    "lint": "eslint ./{src,test}/**/*.{ts,tsx,mdx} --config './.config/.eslintrc.js' --ignore-path './.config/.eslintignore'",
+    "lint:cf": "eslint --help && echo https://eslint.org/docs/user-guide/command-line-interface",
+    "lint:fix": "yarn lint --cache --cache-location './.config/.eslintcache' && yarn format",
+    "lint:target": "echo ./{src,test}/**/*.{ts,tsx,mdx}"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.70",
+    "@tsconfig/docusaurus": "^1.0.2",
+    "@types/react": "^17.0.1",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-mdx": "^1.8.2",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
