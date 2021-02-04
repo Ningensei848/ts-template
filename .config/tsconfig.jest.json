@@ -1,0 +1,7 @@
+{
+    "cf": "// cf. https://github.com/vercel/next.js/issues/8663",
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "jsx": "react"
+    }
+}

@@ -15,6 +15,7 @@
         "sourceMap": true,
         "incremental": true,
         "removeComments": true,
+        "resolveJsonModule": true,
         "newLine": "lf",
         "outDir": "dist",
         "baseUrl": "./",
