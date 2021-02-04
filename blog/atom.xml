@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Ningensei848.github.io/blog</id>
+    <title>Typescript templates Blog</title>
+    <updated>2021-02-04T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Ningensei848.github.io/blog"/>
+    <subtitle>Typescript templates Blog</subtitle>
+    <icon>https://Ningensei848.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[init template]]></title>
+        <id>init-template</id>
+        <link href="https://Ningensei848.github.io/blog/init-template"/>
+        <updated>2021-02-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If there are any changes in the documentation branch, the Github pages will be updated to detect them.]]></summary>
+    </entry>
+</feed>

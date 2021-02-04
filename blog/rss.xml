@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Typescript templates Blog</title>
+        <link>https://Ningensei848.github.io/blog</link>
+        <description>Typescript templates Blog</description>
+        <lastBuildDate>Thu, 04 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[init template]]></title>
+            <link>https://Ningensei848.github.io/blog/init-template</link>
+            <guid>init-template</guid>
+            <pubDate>Thu, 04 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[If there are any changes in the documentation branch, the Github pages will be updated to detect them.]]></description>
+        </item>
+    </channel>
+</rss>
