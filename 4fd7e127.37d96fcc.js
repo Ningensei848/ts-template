@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{76:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"init template","permalink":"/ts-template/blog/init-template"}]}')}}]);
