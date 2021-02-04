@@ -1,13 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://Ningensei848.github.io', // Your website URL
   baseUrl: '/',
+  projectName: 'ts-template', // Usually your repo name.
+  organizationName: 'Ningensei848', // Usually your GitHub org/user name.
+  title: 'Typescript templates',
+  tagline: 'templates for personal development',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+
   themeConfig: {
     navbar: {
       title: 'My Site',
