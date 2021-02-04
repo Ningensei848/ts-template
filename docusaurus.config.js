@@ -1,6 +1,6 @@
 module.exports = {
   url: 'https://Ningensei848.github.io', // Your website URL
-  baseUrl: '/',
+  baseUrl: '/ts-template/',
   projectName: 'ts-template', // Usually your repo name.
   organizationName: 'Ningensei848', // Usually your GitHub org/user name.
   title: 'Typescript templates',
