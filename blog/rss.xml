@@ -9,10 +9,10 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[init template]]></title>
-            <link>https://Ningensei848.github.io/blog/init-template</link>
+            <link>https://Ningensei848.github.io/ts-template/blog/init-template</link>
             <guid>init-template</guid>
             <pubDate>Thu, 04 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></description>
+            <description><![CDATA[If there are any changes in the documentation branch, the Github pages will be updated to detect them.]]></description>
         </item>
     </channel>
 </rss>

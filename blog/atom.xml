@@ -10,8 +10,8 @@
     <entry>
         <title type="html"><![CDATA[init template]]></title>
         <id>init-template</id>
-        <link href="https://Ningensei848.github.io/blog/init-template"/>
+        <link href="https://Ningensei848.github.io/ts-template/blog/init-template"/>
         <updated>2021-02-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
+        <summary type="html"><![CDATA[If there are any changes in the documentation branch, the Github pages will be updated to detect them.]]></summary>
     </entry>
 </feed>
