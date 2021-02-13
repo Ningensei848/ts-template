@@ -6,6 +6,8 @@ on:
     branches: [documentation]
   push:
     branches: [documentation]
+  workflow_dispatch:
+    branches: [documentation]
 
 jobs:
   checks:
